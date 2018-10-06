@@ -1,0 +1,65 @@
+
+
+  public void clickFunction(View view)  {      // when a button called clickFunction get pressed
+
+        Log.i("Info", "Buttom Pressed");   // sends data to Log.i (information)
+
+    }
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+    public void UserOnClick(View view)  {    // "UserOnClick" is the function name when user press button. Assigned on XML side
+
+        EditText myTextField= (EditText) findViewById(R.id.myTextField);
+          // "EditText" we get the context from the TextField
+         //   the textfield is a type of EditText and myTextField after is just a variable( EditText myTextField=)
+        // findViewById(R.id.myTextField) find the id, the id of the textfield is myTextField. Assigned from XML
+        // (EditText) convert the finding from a View to a EditText
+        // the Variable is now a EditText format and not a view
+
+        Log.i("Info",myTextField.getText().toString());
+        // Log.i (Log file of information(i)
+        //myTextField.getText().toString());
+        // the myTextField is the variable assigned the EditText input
+        //getText() get the text from the EditText part
+        //toString convert it to a string
+    }
+    
+    
+    
+  ------------------------------------------------------------------------------------------------------------------------------------
+    
+    
+    
+    
+    public void logOnClick(View view)  {       // user press button, with the onClick value logOnClick
+
+        EditText myUserName = (EditText) findViewById(R.id.myTextField);    //texteditor is EditText sort, 
+                                                                            // Get's the variable myUserName
+                                                                            // find the id, with myTextField 
+                                                                            // (EditText) convert it to EditText from View
+                                                                            // the variable myUserName has now a value in EditText forma
+                                                                            
+                                                                            
+        EditText myPassword= (EditText) findViewById(R.id.myPasswordField); // Same ^^^^^^
+
+
+
+        Log.i("Info", myUserName.getText().toString());  //myUserName.getText().toString());  ////Varaible.metod(getText) then make it a tostring 
+        
+        Log.i("Info", myPassword.getText().toString());     //^^same 
+
+        
+    }
+    
+    
+    ------------------------------------------------------------------------------------------------------------------------------------
+    
+    
+    
+    ------------------------------------------------------------------------------------------------------------------------------------
