@@ -1,0 +1,10 @@
+ ----------------------------  ----------------------------  ----------------------------  ---------------------------- 
+                                         // How to display double value in Toast 
+                                         
+ double ConvertedRatio=(ConvertResult * 0.76);  // this value is a double 
+
+Toast.makeText(this, String.valueOf(ConvertedRatio),Toast.LENGTH_LONG).show(); // use String.valueOf(double value) to display it 
+        
+         ----------------------------  ----------------------------  ----------------------------  ---------------------------- 
+         
+         
