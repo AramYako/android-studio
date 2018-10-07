@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------------------------------------------------------------                                    
+                                       
+                                       //CONVERT FROM STRING TO DOUBLE
+                                       
+EditText UserInput = (EditText) findViewById(R.id.UserInputeditText2); // here it get a string value 
+
+
+Double ConvertResult=Double.parseDouble(UserInput.getText().toString());
+ // Convert the string to a double, assign a new varaible that is double as well. 
+-------------------------------------------------------------------------------------------------------------------------------------
