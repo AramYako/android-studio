@@ -1,5 +1,5 @@
         ---------------------- ---------------------- ---------------------- ---------------------- ----------------------
-
+                                             // UPDATE IMAGE WITH BUTTON 
 public void imageClick(View view) {
         ImageView CurrentImageAndThenChangedImage=(ImageView) findViewById(R.id.imageViewCat);
         
