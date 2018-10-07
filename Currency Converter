@@ -1,0 +1,23 @@
+     -----------------------------------------    -----------------------------------------    -----------------------------------------
+
+                                                       //currency converter
+                                                       
+ public void convertOnClick (View view)
+    {
+
+        EditText UserInput = (EditText) findViewById(R.id.UserInputeditText2);  // user input in string 
+
+        Double ConvertResult=Double.parseDouble(UserInput.getText().toString()); // convert it to double 
+
+        double ConvertedRatio=(ConvertResult * 0.76);                           // multiply with convert ration 
+
+        Toast.makeText(this, String.valueOf(ConvertedRatio),Toast.LENGTH_LONG).show(); // display it in a Toast 
+        
+
+
+    }
+    
+    
+    
+    -----------------------------------------    -----------------------------------------    -----------------------------------------
+
