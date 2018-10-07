@@ -1,0 +1,16 @@
+        ---------------------- ---------------------- ---------------------- ---------------------- ----------------------
+
+public void imageClick(View view) {
+        ImageView CurrentImageAndThenChangedImage=(ImageView) findViewById(R.id.imageViewCat);
+        
+        //- We use ImageView, hence the first code 
+        //- CurrentImageAndThenChangedImage is just a avariable
+        //- findViewById(R.id.imageViewCat); find the current image on the phone
+        //- (ImageView) transfer it from view to image 
+        
+        CurrentImageAndThenChangedImage.setImageResource(R.drawable.cat2);
+        
+        //- old variable, with the old image 
+        //- setImageResource(R.drawable.cat2) gives new image to the variable, from drable folder. 
+        
+        ---------------------- ---------------------- ---------------------- ---------------------- ----------------------
