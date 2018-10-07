@@ -1,3 +1,30 @@
+--------------------------------------------------------------------------------------------------------------------------
+                                                // how to make a toast 
+
+***********
+        Toast.makeText(MainActivity.this, myUserName.getText().toString(), Toast.LENGTH_LONG).show();
+        
+        // MainActivity.this  where the toast should appear 
+        //myUserName.getText().toString()  What the Toast should post. Now it will post the value from variable myUserName
+        // It could otherwise just be a string like " Hello" 
+        //Toast.LENGTH_LONG) How long time the Toast should be showed 
+        // .show(); make the toast appear 
+        
+    }
+    
+    
+--------------------------------------------------------------------------------------------------------------------------
+
+Toast.makeText(MainActivity.this, myUserName.getText().toString() + "!", Toast.LENGTH_LONG).show();
+// myUserName.getText().toString() + "!" take what user enter and adds ! afterward
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+ 
+ 
+ 
+ 
  ----------------------------  ----------------------------  ----------------------------  ---------------------------- 
                                          // How to display double value in Toast 
                                          
