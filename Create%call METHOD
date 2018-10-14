@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------------------------------------------------------
+
+                         **********Create a method and call it and assign value*******************  
+                         
+                         
+//**********This is a method called MakeTost, it gets called, and expect a String as input.
+    public void MakeTost(String StringInPutToMethod){  // StringInPutToMethod is the string sent to the method
+        Toast.makeText(this, StringInPutToMethod, Toast.LENGTH_SHORT).show();
+        
+        
+         MakeTost("Higher");    // this call the metod and gives it a string value  
+         
+-------------------------------------------------------------------------------------------------------------------------------
