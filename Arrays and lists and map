@@ -1,0 +1,32 @@
+                                        *****ARRAY*****
+How to create Int array-----------int [] ArrayCreated= { 3,4,1,4,5};
+How to create string array------- string [] ArrayCreated= { "Hej","Alla","King"};
+How to get the length of a array-------System.out.println(ArrayCreated.length);
+
+
+ 
+                                         *****ARRAYLIST****
+
+How to create a arrayList----------------List VaraibleName= new ArrayList();
+How to add value to ArrayList--------------------- VaraibleName.add(2);
+VaraibleName.add(32);
+VaraibleName.add(21);
+
+How to get value from arrayList 1---------------- System.out.println(VaraibleName.get(1));
+How to remove an index in arraylist---------------VaraibleName.remove(1);
+How to display whole arrayList--------------------System.out.println(VaraibleName.toString());
+
+
+                                         ******Map*********
+                                         
+
+How to create map-------------------Map MapName= new HashMap();
+  
+How to add value to a map----------MapName.put("Father", "Aram");
+
+How to remove a map link-----------MapName.remove("Father");
+
+ 
+How to see the link to a map---------------System.out.println(MapName.get("Father"));
+How to see all value in the map------------System.out.println(MapName.toString());
+How to see the size of the map-------------System.out.println(MapName.size());
