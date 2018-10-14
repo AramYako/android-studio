@@ -7,8 +7,9 @@ How to get the length of a array-------System.out.println(ArrayCreated.length);
  
                                          *****ARRAYLIST****
 
-How to create a arrayList----------------List VaraibleName= new ArrayList();
-How to add value to ArrayList--------------------- VaraibleName.add(2);
+How to create a arrayList---------------------------------------------List VaraibleName= new ArrayList();
+How to create a arrayList that only contains strings------------------List<String> VaraibleName= new ArrayList<String>();
+How to add value to ArrayList   ------------------------------------- VaraibleName.add(2);
 VaraibleName.add(32);
 VaraibleName.add(21);
 
