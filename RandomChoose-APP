@@ -1,0 +1,60 @@
+package com.example.aram.randomnumberchooser;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+import java.util.Random;
+
+
+public class MainActivity extends AppCompatActivity {
+
+    //**********This is a method called MakeTost, it gets called, and expect a String as input. 
+    public void MakeTost(String StringInPutToMethod){  // StringInPutToMethod is the string sent to the method
+        Toast.makeText(this, StringInPutToMethod, Toast.LENGTH_SHORT).show();
+
+    }
+
+    int RandomNumberGenerator;                      // declare out of the scope. All methods inside this method will have access to the data here. 
+                                                       // If methods inside method give this variable new data, it will assign in to it, and methods over the given method but
+                                                        // under the highest method will get the new data as well
+
+    public void NumberGuess (View view) {         // conClick method
+
+        EditText UserGuess = (EditText) findViewById(R.id.UserInputID);     // user input 
+        Integer UserInput = Integer.parseInt(UserGuess.getText().toString());  // convert it to string 
+
+
+                if (UserInput > RandomNumberGenerator) {                  
+                    MakeTost("Lower");               // call the method MakeTost and assign a string value 
+
+                }
+                else if (UserInput < RandomNumberGenerator) {
+                  MakeTost("Higher");              // call the method MakeTost and assign a string value 
+
+                }
+                else {
+                    MakeTost("You choose correct");    // call the method MakeTost and assign a string value 
+ 
+
+
+                    Random rand = new Random();                     // new random generate value after the user choose correct 
+                     RandomNumberGenerator = rand.nextInt(20) + 1;
+                    //20 is the maximum and the 1 is our minimum
+
+
+                }
+
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Random rand = new Random();                                 // Random generator, when the app is built (onCreate) 
+        RandomNumberGenerator = rand.nextInt(20) + 1;        // random between 20 and 1 
+        //20 is the maximum and the 1 is our minimum
+
+    }
+}
