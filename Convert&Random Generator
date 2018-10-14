@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------------------------------------------------------------                                    
+                                       
+                                     _************CONVERT FROM STRING TO DOUBLE**************
+                                       
+EditText UserInput = (EditText) findViewById(R.id.UserInputeditText2); // here it get a string value 
+
+
+Double ConvertResult=Double.parseDouble(UserInput.getText().toString());
+ // Convert the string to a double, assign a new varaible that is double as well. 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+                                        ***********Random generator*************** 
+
+  Random rand = new Random();                                 // Random generator, when the app is built (onCreate)
+        RandomNumberGenerator = rand.nextInt(20) + 1;        // random between 20 and 1
+        //20 is the maximum and the 1 is our minimum
+        
+-------------------------------------------------------------------------------------------------------------------------------------
