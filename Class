@@ -1,0 +1,25 @@
+public class HelloWorld {
+public static void main(String[] args) {
+  
+class Users {    // creating class here 
+int score;       // class contain score 
+
+public boolean hasWon()   // the class has a method 
+if(score>=100){           // if 
+return true;            // return 
+  
+  }
+ else {               // else
+ return false;
+  }
+  }
+  
+  }
+   
+Users Aram = new Users();    // the process outside the class and method 
+   
+Aram.score=10;               // assign value to the score in the class called Aram
+   
+   System.out.println(Aram.hasWon()); 	    // call the method hasWon in the class Aram 
+  }
+}
