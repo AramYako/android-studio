@@ -1,3 +1,29 @@
+                 *********************************CREATE CLASS    *******************************************
+
+
+public class HelloWorld {
+  public static void main(String[] args) {
+  
+   class ClassUser{   // create class
+  
+  int score;          // variable in the class
+  }
+  
+  ClassUser aram=new ClassUser();     // connect it to the class with a object called aram
+  
+  aram.score=10;                        // using object and the variable in the class and assign it a value
+  
+  System.out.println(aram.score);              
+
+
+
+  }
+}
+
+  *********************************CREATE CLASS WITH METHOD INSIDE OF IT    *******************************************
+
+
+
 public class HelloWorld {
 public static void main(String[] args) {
   
@@ -23,3 +49,14 @@ Aram.score=10;               // assign value to the score in the class called Ar
    System.out.println(Aram.hasWon()); 	    // call the method hasWon in the class Aram 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
